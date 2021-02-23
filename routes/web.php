@@ -42,3 +42,11 @@ Route::get('/redirect', function () {
 Route::get('/example', function () {
     return "Third commit" ;
 });
+
+
+
+// LAB 5
+
+Route::get('/getName', "StudentController@get_sName");
+Route::get('/getDate', "StudentController@get_sDate");
+Route::get('/getAge', "StudentController@get_sAge");

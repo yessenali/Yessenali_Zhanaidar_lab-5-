@@ -64,3 +64,4 @@ class RouteServiceProvider extends ServiceProvider
         });
     }
 }
+
