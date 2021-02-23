@@ -35,3 +35,6 @@ Route::get('/users', function () {
     return view('flnames');
 });
 
+Route::get('/redirect', function () {
+    return redirect("/test");
+});
