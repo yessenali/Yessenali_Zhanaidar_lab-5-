@@ -38,3 +38,7 @@ Route::get('/users', function () {
 Route::get('/redirect', function () {
     return redirect("/test");
 });
+
+Route::get('/example', function () {
+    return "Third commit" ;
+});
