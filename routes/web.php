@@ -31,6 +31,7 @@ Route::get('/post/{id}/{age?} ', function ($id, $age=18) {
 });
 
 
-Route::get('/user', function () {
-    return "Zhanaidar Yessenali" ;
+Route::get('/users', function () {
+    return view('flnames');
 });
+
