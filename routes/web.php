@@ -29,3 +29,8 @@ Route::get('/route-example', function () {
 Route::get('/post/{id}/{age?} ', function ($id, $age=18) {
     return "Your id is: ".$id." Your age is: ".$age;
 });
+
+
+Route::get('/user', function () {
+    return "Zhanaidar Yessenali" ;
+});
